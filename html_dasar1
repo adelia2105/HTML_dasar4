@@ -4,7 +4,7 @@
 <title>judul halaman</title>
 </head>
 <body bgcolour="red">
-<h1>header</h1>
+<h1>header> </h1>
 <p>ini adalah link
 <a href="demo.html"></a> 
 </p>
