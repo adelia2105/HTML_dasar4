@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>aku cantik
-
+<html lang="en">
+<head>
+<title>sample page</title>
 </head>
 <body>
-
-
+<h1>sample page</h1>
+<p>This is a <a href="demo.html">sample</a>sample.</p> 
+<!--this is a coment-->
 </body>
 </html>
 
