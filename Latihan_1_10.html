@@ -11,16 +11,15 @@
             margin: 0;
             padding: 0;
             display: flex; /* Menggunakan flexbox */
-            align-items: center; /* Mengatur agar logo dan teks sejajar */
+            flex-direction: column; /* Menata elemen secara vertikal */
+            align-items: center; /* Mengatur agar elemen sejajar secara horizontal */
         }
         #logo {
-            margin-right: 20px;
+            margin-bottom: 20px; /* Menambahkan jarak antara logo dan judul */
+        }
+        #content {
+            text-align: center; /* Mengatur teks di dalam konten menjadi tengah */
         }
     </style>
 </head>
-<body>
-    <img id="logo" src="logo_kampus.jpg" alt="Logo Kampus">
-    <h1>Kartu Rencana Studi</h1>
-    <p>Isi konten KRS Anda di sini...</p>
-</body>
-</html>
+
