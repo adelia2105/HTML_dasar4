@@ -1,3 +1,4 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,25 +11,19 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-        }
-        #container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            display: flex; /* Menggunakan flexbox */
+            align-items: center; /* Mengatur agar logo dan teks sejajar */
         }
         #logo {
-            float: left;
             margin-right: 20px;
         }
     </style>
 </head>
 <body>
-    <div id="container">
-        <div id="logo">
-            <img src="logo_kampus.jpg" alt="Logo Kampus">
-        </div>
-        <h1>Kartu Rencana Studi</h1>
-        <p>Isi konten KRS Anda di sini...</p>
-    </div>
+    <img id="logo" src="logo_kampus.jpg" alt="Logo Kampus">
+    <h1>Kartu Rencana Studi</h1>
+    <p>Isi konten KRS Anda di sini...</p>
 </body>
 </html>
+
+
