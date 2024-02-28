@@ -3,10 +3,16 @@
     <title>Halaman HTML saya</title>
 </head>
 <body>
-<!----LINK---->
-<a href="http://www.pnm.ac.id/">Halaman pnm</a>
-<a href="Latihan_1_4.html">Halaman LIST</a>
-<a href="Latihan_1_3.html">Halaman paragraf</a>
-<a href="latihan_1_2.html">Halaman Heading</a>
+    <!-- Tautan Anchor -->
+    <a href="http://www.pnm.ac.id/" target="_self">Halaman pnm (_self)</a>
+    <a href="Latihan_1_4.html" target="_blank">Halaman LIST (_blank)</a>
+    <a href="Latihan_1_3.html" target="_parent">Halaman paragraf (_parent)</a>
+    <a href="latihan_1_2.html" target="_top">Halaman Heading (_top)</a>
+    <p>
+        <i> Tautan dengan target="_self" membuka halaman tab yang sama dengan tautan tersebut.
+            Tautan dengan target="_blank" membuka halaman tab baru.
+            Tautan dengan target="_parent" membuka halaman terkait di bingkai induk, dan jika tidak ada bingkai induk, perilakunya sama seperti target="_self".
+            Tautan dengan target="_top" membuka halaman terkait di seluruh area jendela, menggantikan halaman saat ini jika ada.</i>
+    </p>
 </body>
 </html>
